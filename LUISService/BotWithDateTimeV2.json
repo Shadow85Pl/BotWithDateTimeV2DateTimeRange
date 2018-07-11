@@ -1,0 +1,41 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "BotWithDateTimeV2",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "FindHotel"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can you find a hotel for me for tomorrow from 5am to 6pm",
+      "intent": "FindHotel",
+      "entities": []
+    },
+    {
+      "text": "find hotel for me for today from 11 to 18",
+      "intent": "FindHotel",
+      "entities": []
+    }
+  ]
+}
