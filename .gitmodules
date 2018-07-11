@@ -1,0 +1,3 @@
+[submodule "BotBuilder-CognitiveServices"]
+	path = BotBuilder-CognitiveServices
+	url = https://github.com/Microsoft/BotBuilder-CognitiveServices.git
